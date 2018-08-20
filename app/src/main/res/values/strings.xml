@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Note</string>
+    <!--//天气-->
+    <string name="Weather_title">Weather</string>
+    <string name="Wea_local">庐江</string>
+    <string name="Wea_state">雷阵雨</string>
+    <string name="Wea_suggest">建议：建议建议建议</string>
+    <string name="Wea_turnover_time">更新时间：2018-08-18 </string>
+    <string name="Wea_temperature">24 ～ 30 </string>
+    <string name="Wea_week">星期天</string>
+    <string name="Wea_search">搜索</string>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhu.note.Wea_search">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/black">
+            <ImageView
+                android:id="@+id/icon_fanhui"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/fanhui" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="@string/Wea_search"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_normal"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:paddingLeft="55dp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/sousuo"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

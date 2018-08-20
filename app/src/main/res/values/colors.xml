@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="chengse">#FF9933</color>
+    <color name="qianzi">#7683d9</color>
+    <color name="hailu">#179dac</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="shenglan">#11aede</color>
+    <color name="luse">#45a95a</color>
+    <color name="hongse">#ca1e30</color>
+
+
+</resources>

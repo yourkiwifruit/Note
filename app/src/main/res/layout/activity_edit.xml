@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/black"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <ImageView
+                android:id="@+id/icon_fanhui"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/fanhui" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:text="编辑"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/naozhong_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/naozhong" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edit_content"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="left|top"
+                android:text=""
+                android:textColor="@color/white" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:src="@drawable/baocun"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Rb_black"
+                android:background="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/Rb_chengse"
+                android:background="@color/chengse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/Rb_hongse"
+                android:background="@color/hongse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/Rb_qianzi"
+                android:background="@color/qianzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/Rb_hailu"
+                android:background="@color/hailu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/Rb_shenglan"
+                android:background="@color/shenglan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/Rb_luse"
+                android:background="@color/luse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
