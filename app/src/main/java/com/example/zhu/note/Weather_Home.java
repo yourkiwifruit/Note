@@ -139,7 +139,7 @@ public class Weather_Home extends AppCompatActivity {
     //通过线程对天气请求得到json数据
     private void getWeatherDatafromNet(String cityName)
     {
-        final String address = "http://v.juhe.cn/weather/index?format=2&cityname="+cityName+"&key=e91eef266b957c923498783e24c58012";
+        final String address = "http://v.juhe.cn/weather/index?format=2&cityname="+cityName+"&key=我这个是聚合API的接口，你可以自己申请一个，我的就不拿出来的，略略略";
         Log.d("Address:",address);
         new Thread(new Runnable() {
             @Override
